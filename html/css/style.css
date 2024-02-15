@@ -1,0 +1,42 @@
+.mainHdr {
+    height: 167px;
+    background-color: rgba(128, 128, 128, 0.599);
+}
+
+.logo {
+    width: 100px;
+    margin-top: 45px;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.menu-principal a {
+    display: block;
+    padding: 12px;
+    background-color: rgb(97, 91, 91);
+    color: #ffff;
+}
+
+.main-content {
+    margin: auto;
+    min-width: 340px;
+    max-width: 1080px;
+    height: auto;
+    background-color: beige;
+}
+
+.galery {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.rodape {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
