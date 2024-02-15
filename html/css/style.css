@@ -1,6 +1,6 @@
 .mainHdr {
     height: 167px;
-    background-color: rgba(128, 128, 128, 0.599);
+    background-color: rgba(15, 178, 102, 0.867);
 }
 
 .logo {
@@ -39,4 +39,26 @@
     text-align: center;
     background-color: black;
     color: white;
+}
+
+@media (max-width: 375px) {
+    .logo{
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .mainHdr {
+        width: 100vw;
+        height: 120px;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+    .galery {
+        margin: auto;
+    }
+    .main-content > h2 {
+        text-align: center;
+    }
 }
